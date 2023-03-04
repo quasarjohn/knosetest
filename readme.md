@@ -1,10 +1,10 @@
 To run, please use `node index.js`
 
 
-**Question: **
+Question:
 If you are to develop your own sorting method, how would you implement it? Given a set of integers, how will you sort them from lowest to highest?
 
-**Answer: **
+Answer:
 If I didn't know about sorting algorithms and had to come up with my own, I would have thought about a parallel quick sort. Java is my first programming  language so when asked to do something complex, I always thought about  splitting the task into smaller tasks using threads. 
 
 Basically, in an array of numbers, you find a random number called pivot,  and split the array into two, first are numbers lower than the pivot, the other are numbers larger than the pivot, then do a normal quicksort on the two partitions in parallel. 
