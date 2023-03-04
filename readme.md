@@ -18,7 +18,7 @@ For comparison, below are results when I compared JavaScript's built in sort,
 quick sort, and quick sort in parallel when sorting. I also tried a parallel
 quicksort using multiple threads, but it got worse results. I think the overhead
 of creating new threads in JavaScript far outweights the advantages of running
-the operations in parallel.
+the operations in parallel. With all these results, I think I will stay with the good old quick sort. 
 
 ###### Array of 100000 numbersArray of 100000 numbers
 
